@@ -1,9 +1,12 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>News - EPFL CARBON TEAM</title>
+
+    <title>EPFL CARBON TEAM</title>
     <link rel="stylesheet" href="./output.css">
     <script src="./flowbite.min.js"></script>
     <style>
@@ -12,20 +15,47 @@
         }
     </style>
 </head>
-<body class="bg-zinc-950 text-white">
+
+<body class="bg-zinc-950  text-white">
     <nav>
         <div class="w-full bg-zinc-950 flex flex-wrap items-center justify-between mx-auto p-0 fixed z-10 shadow-lg">
             <div class="flex items-center space-x-3 rtl:space-x-reverse px-4 py-3">
-                <img src="images//logoCarbon.png" class="h-10 object-contain" alt="Flowbite Logo" />
+                <img src="images/logoCarbon.png" class="h-10 object-contain" alt="Flowbite Logo" />
             </div>
-            <div class="hidden w-full md:flex md:w-auto uppercase self-stretch items-center">
-                <ul class="font-bold flex flex-col md:flex-row md:space-x-8 rtl:space-x-reverse">
-                    <li><a href="index.html" class="text-white hover:bg-white hover:text-zinc-950 p-4">Home</a></li>
-                    <li><a href="news.html" class="text-white hover:bg-white hover:text-zinc-950 p-4">News</a></li>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 m-4 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-white hover:text-zinc-950 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="hidden w-full md:flex md:w-auto uppercase self-stretch items-center" id="navbar-default">
+                <ul
+                    class="font-bold flex flex-col md:p-0 mt-4 md:flex-row self-stretch items-center md:space-x-8 rtl:space-x-reverse md:mt-0">
+                    <li class="flex self-stretch items-center">
+                        <a href='#semesters_projects'
+                            class="flex self-stretch items-center  w-full p-4 text-white hover:bg-white hover:text-zinc-950 border-b-[1px] border-zinc-300 md:border-0">
+                            Semester projects
+                        </a>
+                    </li>
+                    <li class="flex self-stretch items-center">
+                        <a href="#a competition"
+                            class="flex self-stretch items-center w-full p-4 text-white hover:bg-white hover:text-zinc-950 border-b-[1px] border-zinc-300 md:border-0">
+                            A competition
+                        </a>
+                   
                 </ul>
             </div>
         </div>
     </nav>
+    <div
+        class="flex flex-col font-bold items-center min-h-screen justify-center bg-gradient-to-b from-zinc-950 to-zinc-900 px-5">
+        <img src="images/logoCarbon.png" alt="Logo of the EPFL Carbon Team" class="h-48 object-contain mb-12">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl">NEWS</h1>
+    
     <section class="flex w-full bg-gradient-to-b from-zinc-950 to-zinc-900 py-10 mt-20">
         <div class="flex-col w-full text-center">
             <h1 class="text-5xl font-semibold mb-8">News</h1>
