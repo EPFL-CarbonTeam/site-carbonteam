@@ -1,4 +1,7 @@
+ul.has-sub-navbar.sub-navbar{
+  display:none;
+}
 
-.has-sub-navbar:hover.sub-navbar{
+ul.has-sub-navbar:hover.sub-navbar{
   display:block;
 }
