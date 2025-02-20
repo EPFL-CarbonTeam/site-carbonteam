@@ -1,6 +1,4 @@
-.sub-navbar{
-  display:none;
-}
+
 .has-sub-navbar:hover.sub-navbar{
   display:block;
 }
