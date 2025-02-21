@@ -1830,3 +1830,10 @@ html, body {
 .rtl\:space-x-reverse:where([dir="rtl"], [dir="rtl"] *) > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 1;
 }
+.sub-navbar{
+  display:none;
+}
+
+.has-sub-navbar:hover.sub-navbar{
+  display:block;
+}
