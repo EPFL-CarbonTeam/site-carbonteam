@@ -1,7 +1,7 @@
-ul.has-sub-navbar.sub-navbar{
+.sub-navbar{
   display:none;
 }
 
-ul.has-sub-navbar:hover.sub-navbar{
+.has-sub-navbar:hover.sub-navbar{
   display:block;
 }
