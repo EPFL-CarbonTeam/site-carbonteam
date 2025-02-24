@@ -1832,12 +1832,7 @@ html, body {
 }
 
 .sub-navbar{
-  display:none;
-  style="flex self-stretch items-center0"
-}
-
-.has-sub-navbar:hover.sub-navbar{
-  display:block;
+  style="flex self-stretch items-center0";
 }
 
 
