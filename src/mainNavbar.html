@@ -1,0 +1,40 @@
+<nav class="bg-zinc-900 text-white">
+    <div class="flex justify-between items-center px-4 py-3">
+        <!-- Collapsible Menu Button (Visible on Small Screens) -->
+        <button data-collapse-toggle="navbar-default" type="button"
+            class="inline-flex items-center p-2 m-4 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-white hover:text-zinc-950 focus:outline-none focus:ring-2 focus:ring-gray-200"
+            aria-controls="navbar-default" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 17 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M1 1h15M1 7h15M1 13h15" />
+            </svg>
+        </button>
+
+        <!-- Collapsible Menu Content -->
+        <div class="hidden w-full md:flex md:w-auto uppercase self-stretch items-center justify-start" id="navbar-default">
+            <ul
+                class="font-bold flex flex-col md:p-0 mt-4 md:flex-row self-stretch items-center md:space-x-8 rtl:space-x-reverse md:mt-0">
+                <li class="flex self-stretch items-center">
+                    <a href="index.html"
+                        class="flex self-stretch items-center w-full p-4 text-white hover:bg-white hover:text-zinc-950 border-y-[1px] border-zinc-300 md:border-0">
+                        Home
+                    </a>
+                </li>
+                <li class="flex self-stretch items-center">
+                    <a href="news.html"
+                        class="flex self-stretch items-center w-full p-4 text-white hover:bg-white hover:text-zinc-950 border-b-[1px] border-zinc-300 md:border-0">
+                        News
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Logo and Text on the Right -->
+        <a href="index.html" class="flex items-center space-x-3">
+            <img src="images/logoCarbon.png" class="h-10 object-contain" alt="EPFL Carbon Team Logo" />
+            <span class="font-bold text-xl">EPFL Carbon Team</span>
+        </a>
+    </div>
+</nav>
